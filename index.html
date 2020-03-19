@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Casa Francia</title>
+
+    <!--------------- Estilos de Bootstrap --------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--------------- Estilos CSS --------------->
+    <link rel="stylesheet" href="main/style.css">
+
+    <!--------------- Estilos CSS --------------->
+    <link rel="stylesheet" href="_portfolio.css">
+
+    <!--------------- Responsive CSS para teléfonos --------------->
+    <link rel="stylesheet" href="main/mobile-style.css">
+
+    <!--------------- Favicon --------------->
+    <link rel="icon" type="image/jpg" href="img/favicon1.png">
+
+    <!--------------- Tipografías Google Fonts --------------->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato:400i|Open+Sans:400,600|Work+Sans&display=swap');
+    </style>
+
+    <!-- -->
+</head>
+
+<body id="body">
+
+    <!--------------- Barra de navegación --------------->
+    <nav class="menu navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="boton navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="menu navbar-nav text-center">
+                <a class="nav-item nav-link" href="#">Inicio</a>
+                <a class="nav-item nav-link" href="#tarjeta1">Nuestra casa</a>
+                <a class="nav-item nav-link" href="#portfolio">Habitaciones</a>
+                <a class="nav-item nav-link" href="#reseñas">Reseñas</a>
+                <a class="nav-item nav-link" href="#ubicacion">Ubicación</a>
+ <a class="nav-item nav-link" href="galeria.html">Galería</a>
+                <a class="nav-item nav-link" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <!--------------- Fin de la barra de navegación --------------->
+
+    <!--------------- Slider con imágenes --------------->
+       <header>
+        <div class="bd-example" id="header">
+            <!-- Imágen fijada arriba a la derecha -->
+            <img loading="lazy" id="img" src="img/icons/fixed.png" alt="">
+            <!-- Fin de imágen fijada arriba a la derecha -->
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img loading="lazy" src="img/portada.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------------- Fin de slider con imágenes --------------->
+
+
+    <!--------------- Servicios y características del lugar --------------->
+    <div class="container text-center">
+        <h1>
+            Detalles sobre la residencia
+        </h1>
+        <h5 class="text-secondary">Conocé sus características y el valor agregado que ofrecemos</h5>
+    </div>
+    <section class="ib-container-fluid justify-content-center" id="ib-container">
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/camera.png" alt="">
+            <header>
+                <h3>Sistema de cámaras las 24hs</h3>
+            </header>
+            <p class="text-xs-center">Contamos con un sistema de camaras grabando las 24 hs, en todos los espacios
+                comunes.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/alarm.png" alt="">
+            <header>
+                <h3>Alarma de incendios monitoreada las 24hs</h3>
+            </header>
+            <p>Detectores de humo en todos los ambientes de la casa.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/box-security1.png" alt="">
+            <header>
+                <h3>Cajas de seguridad.</h3>
+            </header>
+            <p>Cajas de seguridad en todos los placares (1 por persona) para resguardo de pertenencias.
+                de
+                valor.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/clean1.png" alt="">
+            <header>
+                <h3>Limpieza de áreas comunes de lunes a viernes</h3>
+            </header>
+            <p>Nos hacemos cargo de la limpieza de la casa a diario.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/security1.png" alt="">
+            <header>
+                <h3>Cumplimos con todas las normas de seguridad</h3>
+            </header>
+            <p>Detectores de gas, detectores de humo, luces de emergencia,
+                señalización, control de acceso.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+            <img loading="lazy" src="img/icons/air1.png" alt="">
+            <header>
+                <h3>Aire acondicionado frío/calor</h3>
+            </header>
+            <p>Ambientes climatizados en todas las habitaciones.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <img loading="lazy" src="img/icons/desktop2.png" alt="">
+            <header>
+                <h3>Escritorios</h3>
+            </header>
+            <p>Todas las habitaciones cuentan con escritorios con 2 sillas para que estudies en
+                comodidad.</p>
+        </article>
+        <article class="col-xs-6 col-sm-6 col-md-6 col-lg-3">
+            <img loading="lazy" src="img/icons/wifi.png" alt="">
+            <header>
+                <h3>WiFi 100mb</h3>
+            </header>
+            <p>Alta velocidad de internet en toda la residencia.</p>
+        </article>
+    </section>
+    </div>
+
+    <!--------------- Separador de contenido --------------->
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span>Descubrí nuestros espacios</span>
+        </h1>
+        <h5 class="text-secondary">Desde la terraza al living, tenemos todo lo que necesitas para que tengas comodidad.
+        </h5>
+    </div>
+    <!--------------- Fin del separador de contenido --------------->
+
+    <!--------------- Espacios Comunes - Fotos Tarjeta1 --------------->
+    <section class="tarjeta1">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img loading="lazy" src="img/espacios-comunes-y-extras/sofaytv.jpg" alt="Pray">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Sala común</h1>
+                        <h5 class="div pt-1">
+                            La casa
+                            cuenta con un living y cómodos
+                            sillones donde podes disfrutar de un
+                            TV led de
+                            42” con cable.
+                            Hay WIFI 100 megas con dos
+                            repetidores que permite
+                            que puedas acceder y tener señal
+                            desde todos los sectores de la casa.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img loading="lazy" src="img/espacios-comunes-y-extras/patio-abierto.jpg" alt="Pray">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Patio de invierno</h1>
+                        <h5 class="div pt-4">
+                            Un espacio tranquilo con mesas y sillas para que puedas estudiar o tomar mates en tus ratos
+                            libres. <br>
+                            Y como opción extra siempre vas a poder ir a la terraza también.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img loading="lazy" src="img/cocina/cocina2.jpg" alt="cocina">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Cocina / Comedor</h1>
+                        <h5 class="div pt-4">
+                            Diseño moderno y amplia. <br>
+                            Ubicada en planta baja,
+                            es donde vas a compartir tu tiempo con la mayoría de las personas.
+                            Además está equipada con todos los electrodomésticos necesarios.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img loading="lazy" src="img/espacios-comunes-y-extras/parrillero.jpg" alt="Parrillero">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Cocina con parrillero</h1>
+                        <h5 class="div pt-4">
+                            De estilo rústico y ubicada en la planta alta. <br>
+                            Cuenta con una cocina y a su costado un parrillero para armar excelentes comidas.
+                            También dispone de heladera, horno microondas y freezer.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img loading="lazy" src="img/espacios-comunes-y-extras/terraza2.jpg" alt="Terraza">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Terraza</h1>
+                        <h5 class="div pt-4">
+                            Aire libre y espacio natural<br>
+                            Nuestra terraza cuenta con gran espacio para que puedas disfrutar de hermosas tardes de sol,
+                            reuniones con amigos o simplemente estudiar con tranquilidad.
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    </main>
+
+    <!--------------- Separador de contenido --------------->
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span>Conocé nuestras habitaciones!</span>
+        </h1>
+        <h5 class="text-secondary">Cada una con sus diseños y particularidades que las hacen especiales. <br>
+            Además todas cuentan con escritorios y sillas!</h5>
+    </div>
+    <!--------------- Fin del separador de contenido --------------->
+
+
+    <!----------------------- Galería de 6 fotos ------------------------>
+    <section id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion1">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde4-2da.jpg"
+                            alt="Habitación para 4 personas">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Privacidad
+                            </div>
+                            <div class="project-name">
+                                Habitación para 4 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion2">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde4.jpg"
+                            alt="Segunda habitación para 4 personas">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Confort
+                            </div>
+                            <div class="project-name">
+                                Habitación para 4 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion3">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde-3.jpg"
+                            alt="Habitación para 3 personas">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Seguridad
+                            </div>
+                            <div class="project-name">
+                                Habitación para 3 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion4">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde2.jpg"
+                            alt="Habitación para 2 personas">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Comodidad
+                            </div>
+                            <div class="project-name">
+                                Habitación para 2 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion5">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde2-2da.jpg"
+                            alt="Segunda habitación para 2 personas">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Bienestar
+                            </div>
+                            <div class="project-name">
+                                Habitación para 2 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="#habitacion6">
+                        <img loading="lazy" class="img-fluid" src="img/habitaciones/habitacionde2-3era.jpg"
+                            alt="Tercera habitación para 2 personas">
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">
+                                Concentración
+                            </div>
+                            <div class="project-name">
+                                Habitación para 2 personas
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------- Fin de la galería de 6 fotos ------------------------>
+
+    <!----------------- Habitaciones - Fotos Tarjeta2 ---------------------->
+    <section id="habitaciones-tarjetas">
+        <div class="container" id="habitacion1">
+            <div class="col">
+                <div class="row" id="container">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde4-3era.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img loading="lazy" class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación cuádruple</h3>
+                        <h5>Espacio para hombres, cuenta con:</h5>
+                        <ul>
+                            <li>Baño privado.</li>
+                            <li>Cajas de seguridad.</li>
+                            <li>Placard individual.</li>
+                            <li>Aire acondicionado.</li>
+                            <li>Escritorio de estudio.</li>
+                        </ul>
+
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="habitacion2">
+            <div class="col">
+                <div class="row" id="container">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde4.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img loading="lazy" class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación cuádruple</h3>
+                        <h5>Espacio para mujeres, cuenta con:</h5>
+                        <ul>
+                            <li>Abundante color blanco</li>
+                            <li>Baño privado.</li>
+                            <li>Placard individual.</li>
+                            <li>Cajas de seguridad</li>
+                            <li>Aire acondicionado</li>
+                        </ul>
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col" id="habitacion3">
+                <div class="row" id="container">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde3.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img loading="lazy" class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación triple</h3>
+                        <h5>Espacio para hombres, cuenta con:</h5>
+                        <ul>
+                            <li>Balcón individual</li>
+                            <li>Baño compartido</li>
+                            <li>Espacio más amplio</li>
+                            <li>Cajas de seguridad</li>
+                            <li>Placard individual</li>
+                        </ul>
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col" id="habitacion4">
+                <div class="row" id="container">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde2-floreada.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img loading="lazy" class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación doble</h3>
+                        <h5>Espacio para mujeres, cuenta con:</h5>
+                        <ul>
+                            <li>Mayor privacidad</li>
+                            <li>Baño compartido</li>
+                            <li>Aire acondicionado</li>
+                            <li>Cajas de seguridad</li>
+                            <li>Placard individual</li>
+                        </ul>
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col" id="habitacion5">
+                <div class="row" id="container">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde2-tipoperu.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img loading="lazy" class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación doble</h3>
+                        <h5>Espacio para hombres, cuenta con:</h5>
+                        <ul>
+                            <li>Mayor privacidad</li>
+                            <li>Baño compartido</li>
+                            <li>Aire acondicionado</li>
+                            <li>Cajas de seguridad</li>
+                            <li>Placard individual</li>
+                        </ul>
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="col" id="habitacion6">
+                <div class="row" id="container">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-image">
+                        <!--De acá-->
+                        <img loading="lazy" id="myImg" src="img/habitaciones/habitacionde2-roja.jpg" alt="Snow"
+                            onclick="ampliarImagen(this, 'popUp-01', 'img-01', 'caption-01')">
+                        <div id="popUp-01" class="modal">
+                            <span id="close" class="close">&times;</span>
+                            <img class="modal-content" id="img-01">
+                            <div id="caption-01"></div>
+                            <!--A acá-->
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="product-details">
+                        <h3>Habitación doble</h3>
+                        <h5>Espacio para hombres, cuenta con:</h5>
+
+                        <ul>
+                            <li>Mayor privacidad</li>
+                            <li>Baño compartido</li>
+                            <li>Aire acondicionado</li>
+                            <li>Cajas de seguridad</li>
+                            <li>Placard individual</li>
+                        </ul>
+                        <a class="btn btn-danger" href="#contacto" class="nounderline">Consultar
+                            disponibilidad</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------- Fin de las habitaciones - Fotos Tarjeta2 ---------------------->
+
+    <!--------------- Separador de contenido --------------->
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span>Baños de la casa</span>
+        </h1>
+    </div>
+    <!--------------- Fin del separador de contenido --------------->
+
+
+    <!----------------------- Baños ------------------------>
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="1000">
+                <img loading="lazy" src="img/baños/baño1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="2000">
+                <img loading="lazy" src="img/baños/baño2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img loading="lazy" src="img/baños/baño3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img loading="lazy" src="img/baños/baño4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img loading="lazy" src="img/baños/baño5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img loading="lazy" src="img/baños/baño6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <!----------------- Fin de baños ---------------------->
+
+    <!--------------- Separador de contenido --------------->
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span>Reseñas</span>
+        </h1>
+        <h5 class="text-secondary">Mirá que dicen del lugar nuestros residentes.</h5>
+    </div>
+    <!--------------- Fin del separador de contenido --------------->
+
+
+    <section class="reseñas" id="reseñas">
+        <!-------------- Reseñas ---------------->
+        <div class="row">
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img loading="lazy" src="img/icons/fernando2.png" alt="Ícono de una mujer" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Fernando.
+                        </h3>
+                        <p class="card-text">
+                            Mi experiencia en La Casa de Calle Francia ha sido única, buen ambiente de convivencia y
+                            con todas las comodidades en cada uno de sus espacios. Excelente zona y buen trato,
+                            ideal para quienes estamos lejos de casa ¡Súper recomendada!
+                            <br>
+                            <br>
+                            <br>
+                        </p class="text-black-50">
+                        <p>Facultad de Medicina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img loading="lazy" src="img/icons/glenda.jpeg" alt="Ícono de una mujer" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Glenda
+                        </h3>
+                        <p class="card-text">
+                            La Casa de Calle Francia me encantó mucho, tiene tudo que necesita, las personas son muy
+                            amables y es cerca de tudo. <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </p class="text-black-50">
+                        <p>Facultad de Medicina</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <div class="card mr-2 d-inline-block shadow-lg">
+                    <div class="card-img-top">
+                        <img loading="lazy" src="img/icons/franco.jpeg" alt="Ícono de una mujer" class="img-fluid">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">
+                            Gian
+                        </h3>
+                        <p class="card-text">
+                            Recomiendo La Casa de Calle Francia, ya que es un lugar cómodo para vivir, cuenta con
+                            todos los servicios y la atención con los residentes siempre buena, además está ubicada
+                            en un lugar cerca de distintas facultades, con fácil acceso para estudiantes. <br>
+                            Y cerca de muchas cervecerías.
+                        </p class="text-black-50">
+                        <p>Facultad de Kinesiología</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!----------------------- Fin de las reseñas ------------------------>
+
+    <!----------------------- Separador ------------------------>
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span id="ubicacion">Ubicación</span>
+        </h1>
+    </div>
+    <!----------------------- Fin del separador ------------------------>
+
+    <!---------------------- Preguntas Frecuentes ------------------------>
+    <div class="container text-center" id="tarjeta1">
+        <h5 class="text-secondary">LA CASA DE CALLE FRANCIA
+            , ubicados en Av. Francia 80, en una privilegiada zona de Rosario con numerosas arterias que
+            permiten ir a cualquier punto de la ciudad ya sea con transporte público o en bicicleta. <br>
+        </h5>
+        <h5 class="text-secondary">CERCA DE TODO
+            Cerca de facultades, escuelas y centros educativos hacen de nuestra casa el lugar ideal para
+            instalarse y vivir cómodamente cerca de todo lo que los jóvenes necesitan (restaurantes,
+            cervecerías, boliches, gimnasios, parques recreativos y comercios) <br>
+            Numerosa cantidad de líneas de colectivos hacia todas partes de la ciudad y a pocas cuadras de
+            la terminal de ómnibus Mariano Moreno.</h5>
+        <h5 class="text-secondary">
+            La ubicación es estratégica, en una Avenida muy concurrida tanto de día como de noche. El parque
+            Scalabrini Ortiz, el Shopping Alto Rosario, la Facultad de Medicina se encuentran a pocos
+            metros. <br>
+        </h5>
+    </div>
+    <div class="colectivos text-center">
+        <h1>
+            <span>Transporte cercano</span>
+        </h1>
+    </div>
+
+    <div class="container text-center">
+        <div class="row acerca-de justify-content-around">
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img loading="lazy" src="img/icons/bus.png" alt="">
+                    <strong class="mb-2">Línea 144.</strong>
+                </figure>
+                <img loading="lazy" src="img/icons/derecho.png" alt="Mapa hacia Facultad de Derecho">
+                <figcaption>
+                    <p>
+                        <div class="w-100"></div>
+                        Hacia Facultad Derecho y Biblioteca.
+                        <br>
+                        Parada: en calle Francia y Catamarca.<br>
+                        Tiempo: 10 minutos de viaje.
+                    </p>
+                </figcaption>
+            </article>
+
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img loading="lazy" src="img/icons/bus.png" alt="">
+                    <strong class="mb-2">Línea 144.</strong>
+                </figure>
+                <img loading="lazy" src="img/icons/economia.png" alt="Mapa hacia Facultad de Cs. Económicas">
+                <figcaption>
+                    <p>
+                        <div class="w-100"></div>
+                        Hacia Facultad de Cs. Económicas. <br>
+                        Parada: en calle Francia y Salta.<br>
+                        Tiempo: 15 minutos de viaje.
+                    </p>
+                </figcaption>
+            </article>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <div class="row acerca-de justify-content-around">
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img loading="lazy" src="img/icons/bus.png" alt="">
+                    <strong class="mb-2">Línea 120.</strong>
+                </figure>
+                <img loading="lazy" src="img/icons/humanidades.png" alt="Mapa hacia Facultad de Humanidades">
+                <figcaption>
+                    <p class="text-justify-center">
+                        <div></div>
+                        Hacia Facultad de Humanidades y Artes.
+                        <br>
+                        Parada: en calle Francia y Salta.<br>
+                        Tiempo: 10 minutos de viaje.
+                    </p>
+                </figcaption>
+            </article>
+
+            <article class="col-10 col-sm-5">
+                <figure class="text-center">
+                    <img loading="lazy" src="img/icons/bus.png" alt="">
+                    <strong class="mb-2">Línea 144 Rojo.</strong>
+                </figure>
+                <img loading="lazy" src="img/icons/ingenieria.png" alt="Mapa hacia Facultad de Ingeniería">
+                <figcaption>
+                    <p>
+                        <div class="w-100"></div>
+                        Hacia Facultad de Ingeniería y Siberia. <br>
+                        Parada: en calle Francia y Salta.<br>
+                        Tiempo: 25 minutos de viaje.
+                    </p>
+                </figcaption>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="container text-center" id="tarjeta1">
+        <h1 class="text-dark">
+            <span>Contactanos!</span>
+        </h1>
+        <h5 class="text-secondary">¿Te interesa saber más? También podes descargar nuestro Reglamento hacienco
+            click <a href="Reglamento.pdf">aquí</a></h5>
+    </div>
+
+    <!---------------------- Fin de preguntas Frecuentes ------------------------>
+
+    <aside id="contacto" class="mt-5">
+
+        <section class="form_wrap">
+            <form action="form.php" method="post" class="form_contact">
+                <h2>Envía un mensaje.</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names" name="nombre">
+
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone" name="telefono">
+
+                    <label for="email">Correo electronico *</label>
+                    <input type="email" id="email" name="correo">
+
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+
+                    <input type="submit" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+            <!--------------- Mapa --------------->
+            <section class="contact_info">
+                <iframe loading="lazy"
+src="https://www.google.com/maps/d/u/1/embed?mid=1UJkxRN6Sbx1tmG1LgCYl2nL60pftKJ20"
+width="640" height="480"></iframe>
+            </section>
+            <!--------------- Fin del mapa --------------->
+        </section>
+    </aside>
+
+    <footer class="row justify-content-center redes-sociales">
+        <div class="col">
+            <div class="row">
+                <div id="tel-icon" class="col col-xs-6 col-sm-6 col-md-6 col-lg-4">
+                    <a href="https://api.whatsapp.com/send?phone=+5493416191848&text=Quiero hacer una consulta."
+                        class="img1" target="blank">
+                        <img loading="lazy" src="img/icons/tel.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col">
+                    <div class="row col-xs-6 col-sm-6 col-md-6 col-lg-8" id="icons">
+                        <a href="https://api.whatsapp.com/send?phone=+5493416191848&text=Quiero hacer una consulta."
+                            class="img2" target="blank">
+                            <img loading="lazy" src="img/icons/whatsapp.png" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/LaCasadeCalleFrancia/" class="img2" target="blank">
+                            <img loading="lazy" src="img/icons/facebook.png" alt="">
+                        </a>
+                        <a href="https://www.instagram.com/lacasadecallefrancia/" class="img2" target="blank">
+                            <img loading="lazy" src="img/icons/instagram-new.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!--------------- JavaScript para el efecto de tarjetas borrosas -------------->
+    <script src="./scripts/fuzzy.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+    </script>
+    <script type="text/javascript">
+        $(function () {
+
+            var $container = $('#ib-container'),
+                $articles = $container.children('article'),
+                timeout;
+
+            $articles.on('mouseenter', function (event) {
+
+                var $article = $(this);
+                clearTimeout(timeout);
+                timeout = setTimeout(function () {
+
+                    if ($article.hasClass('active')) return false;
+
+                    $articles.not($article.removeClass('blur').addClass('active'))
+                        .removeClass('active')
+                        .addClass('blur');
+
+                }, 65);
+
+            });
+
+            $container.on('mouseleave', function (event) {
+
+                clearTimeout(timeout);
+                $articles.removeClass('active blur');
+
+            });
+
+        });
+    </script>
+
+    <!--------------- JavaScript para el funcionamiento de la galería de imágenes --------------->
+                       
+    <script src="scripts/creative.min.scss"></script>
+    <script src="scripts/creative.scss"></script>
+
+    <!--------------- Efectos en JavaScript --------------->
+    <script src="scripts/interaction.js"></script>
+    <script src="scripts/modal.js"></script>
+
+    <!--------------- JS y jQuery para validación de formulario --------------->
+    <script src="scripts/validation.js"></script>
+    <script src="scripts/jquery-3.2.1.js"></script>
+
+    <!--------------- Scripts de Bootstrap --------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

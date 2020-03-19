@@ -1,0 +1,894 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400i|Open+Sans:400,600|Work+Sans&display=swap");
+
+h1 {
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#body {
+  background-color: #dadada8f;
+  width: 100%;
+  margin: auto;
+}
+
+/* ------------------------- */
+/* HEADER */
+/* ------------------------- */
+
+#header {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+#header .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#header .carousel-inner .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+#header .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#header #text-carousel {
+  padding: 300px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 44px;
+}
+
+#header #text-carousel h5 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 44px;
+}
+
+/* ------------------------- */
+/* IMAGEN FIJADA A LA DERECHA */
+/* ------------------------- */
+
+#header #img {
+  position: fixed;
+  width: 220px;
+  left: 85%;
+  bottom: 68.5%;
+  z-index: 2;
+}
+
+/* ------------------------- */
+/* NAVBAR */
+/* ------------------------- */
+.menu {
+  background-color: #ffffff;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 999;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #ffffff;
+  transition: 0.5s ease all;
+  color: #0a1e2c;
+  text-decoration: none;
+}
+
+#navbarNavAltMarkup a:hover {
+  transform: translateY(18px);
+  background-color: rgba(197, 36, 36, 1);
+  color: #ffffff;
+}
+
+/* ------------------------- */
+/* SEPARADOR DE CONTENIDO */
+/* ------------------------- */
+
+.text-dark {
+  font-size: 21px;
+  font-weight: 700;
+  z-index: 2;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.text-dark span {
+  background-color: #e2e2e2;
+  padding: 0 15px;
+  z-index: 99;
+  position: relative;
+}
+
+.text-dark::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 90%;
+  background: rgb(26, 25, 25);
+  position: relative;
+  top: -29px;
+  z-index: 1;
+}
+
+/* ------------------------- */
+/* SECCION DE ESPACIOS COMUNES - TARJETA1 */
+/* ------------------------- */
+
+.tarjeta1 {
+  padding: 2vmin 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tarjeta1 .row {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.tarjeta1 .row .col-md-6 .pray img {
+  opacity: 0.8;
+  width: 600px;
+  height: 30em;
+  border-radius: 0.2em;
+  margin-left: -50px;
+}
+
+.tarjeta1 .row .col-md-6 last-child {
+  position: relative;
+}
+
+.tarjeta1 .row .col-md-6 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.tarjeta1 .row .col-md-6 .panel {
+  position: absolute;
+  top: 5vmin;
+  left: -8vmin;
+  background: white;
+  border-radius: 3px;
+  text-align: left;
+  padding: 5vmin 5vmin 12vmin 8vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  font-family: "Open Sans", sans-serif;
+  z-index: 1;
+  margin-top: 10%;
+}
+
+.tarjeta1 .row .col-md-6 .panel h1 {
+  font-weight: "Open Sans";
+  padding: 0.4em 0;
+  font-size: 2em;
+}
+
+.tarjeta1 .row .col-md-6 .panel h5 {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.tarjeta1 .row .col-md-6 .panel p {
+  font-size: 1.3em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* ------------------------- */
+/* CARACTERÍSTICAS DESTACABLES - Lista de 8 */
+/* ------------------------- 
+#main .col .row li {
+    list-style: none;
+}
+*/
+
+.ib-container-fluid {
+  position: relative;
+  max-width: 80%;
+  margin: 30px auto;
+  margin-right: 0px;
+  padding-right: 0px;
+  display: block;
+  padding-bottom: 5%;
+  margin-left: 12%;
+}
+
+.ib-container-fluid:before,
+.ib-container-fluid:after {
+  content: "";
+  display: table;
+}
+
+.ib-container-fluid:after {
+  clear: both;
+}
+
+.ib-container-fluid article img {
+  width: 35%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.ib-container-fluid article {
+  width: 210px;
+  height: 250px;
+  background: #fff;
+  cursor: pointer;
+  float: left;
+  border: 10px solid #fff;
+  text-align: center;
+  text-transform: none;
+  margin: 20px;
+  z-index: 1;
+  box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 1),
+    1px 1px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.4s linear, transform 0.4s ease-in-out,
+    box-shadow 0.4s ease-in-out;
+}
+
+.ib-container-fluid h3 {
+  font-size: 19px;
+  color: rgba(0, 0, 0, 1);
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 1);
+  opacity: 0.8;
+}
+
+.ib-container-fluid article p {
+  color: rgba(51, 51, 51, 1);
+  text-shadow: 0px 0px 0px rgba(51, 51, 51, 1);
+  opacity: 0.8;
+}
+
+.ib-container-fluid h3 a,
+.ib-container-fluid article header span,
+.ib-container-fluid article p {
+  transition: opacity 0.2s linear, text-shadow 0.5s ease-in-out,
+    color 0.5s ease-in-out;
+}
+
+.ib-container-fluid article.blur {
+  box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 1);
+  transform: scale(0.9);
+  opacity: 0.7;
+}
+
+.ib-container-fluid article.blur p {
+  text-shadow: 0px 0px 10px rgba(51, 51, 51, 0.9);
+  color: rgba(51, 51, 51, 0);
+  opacity: 0.5;
+}
+
+.ib-container-fluid article.active {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 1),
+    1px 11px 15px 10px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  opacity: 1;
+}
+
+.ib-container-fluid article.active h3 a,
+.ib-container-fluid article.active header span,
+.ib-container-fluid article.active p {
+  opacity: 1;
+}
+
+/* ------------------------- */
+/* DISEÑO DE TARJETAS2 - Habitaciones */
+/* ------------------------- */
+
+/* Fuente usada  */
+
+#habitaciones-tarjetas {
+  width: 100%;
+}
+
+#container {
+  box-shadow: 15px 15px 30px 1px rgba(128, 128, 128, 0.31);
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 2em auto;
+}
+
+#product-details {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  float: left;
+  width: 100%;
+  max-height: 550px;
+}
+
+#product-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  display: inline-block;
+  min-height: 300px;
+  max-height: 550px;
+}
+
+#container img {
+  width: 100%;
+  height: 100%;
+}
+
+#container .product-details h1 {
+  font-family: "Old Standard TT", serif;
+  display: inline-block;
+  position: relative;
+  font-size: 34px;
+  color: #344055;
+  margin: 0;
+}
+
+#container .product-details .btn a:link {
+  width: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#container .product-details .btn a:hover {
+  width: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#container ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ------------------------- */
+/* BAÑOS */
+/* ------------------------- */
+
+#carouselExampleInterval {
+  width: 70%;
+  height: 60%;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 15%;
+  padding-bottom: 50px;
+}
+
+#carouselExampleInterval .carousel-inner {
+  width: 100%;
+  height: 500px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+#carouselExampleInterval .carousel-inner .carousel-item {
+  width: 100%;
+  height: 500px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+#carouselExampleInterval .carousel-inner .carousel-item img {
+  width: 100%;
+  height: 500px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* ------------------------- */
+/* ESTILOS PARA LAS RESEÑAS */
+/* ------------------------- */
+
+.reseñas {
+  width: 100%;
+  padding: 1px;
+}
+
+#reseñas .row {
+  padding: 2.5vmin 2.5vmin;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+
+.reseñas .container h1 {
+  font-size: 6vmin;
+  padding-top: 14vmin;
+}
+
+.reseñas .card {
+  width: 19em;
+  margin-top: 1vmin;
+}
+
+.reseñas .card .card-text {
+  padding: 0.5em;
+}
+
+.reseñas .card-body>a {
+  font-size: 1.5em;
+}
+
+.reseñas .row img {
+  margin-top: 5px;
+  width: 40%;
+  border-radius: 80px 80px 80px 80px;
+}
+
+/* ------------------------- */
+/* GALERÍA DE IMÁGENES */
+/* ------------------------- */
+
+#portfolio {
+  margin-top: 30px;
+}
+
+#portfolio .container-fluid {
+  width: 100%;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: rgb(255, 255, 255);
+  background: rgba(197, 36, 36, 0.808);
+  -webkit-transition: opacity 0.75s ease;
+  transition: opacity 0.15s ease;
+  text-align: center;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+.portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  bottom: 0;
+
+  text-align: center;
+  opacity: 0;
+
+  color: white;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+.project-category {
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+
+.project-name {
+  font-size: 1.2rem;
+}
+
+/* ------------------------- */
+/* UBICACIÓN */
+/* ------------------------- */
+.acerca-de {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.acerca-de article figure img {
+  width: 60px;
+}
+
+.acerca-de article img {
+  width: 100%;
+}
+
+
+/* ------------------------- */
+/* FORMULARIO DE CONTACTO */
+/* ------------------------- */
+
+/* MAPA */
+.contact_info::before {
+  content: "";
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contact_info {
+  margin-top: 5px;
+  width: 45%;
+  height: 100%;
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 10px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  margin: 5px 5px 5px 5px auto;
+  margin-right: 5%;
+}
+
+.contact_info iframe {
+  width: 100%;
+  position: relative;
+  height: 557px;
+}
+
+/* Formulario de contacto*/
+.form_contact {
+  width: 45%;
+  padding: 30px 40px;
+  float: left;
+  background: #fff;
+  border-radius: 10px 0px 10px 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  margin: 5px auto;
+  margin-left: 5%;
+}
+
+form.form_contact h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #303030;
+  margin-bottom: 30px;
+  margin-left: 30%;
+}
+
+form.form_contact .user_info {
+  display: flex;
+  flex-direction: column;
+}
+
+form.form_contact label {
+  font-weight: 600;
+}
+
+form.form_contact input,
+form.form_contact textarea {
+  width: 100%;
+  padding: 8px 0px 5px;
+  margin-bottom: 20px;
+
+  border: none;
+  border-bottom: 2px solid #d1d1d1;
+
+  font-family: "Open sans";
+  color: #5a5a5a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+form.form_contact textarea {
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 90px;
+}
+
+form.form_contact input[type="submit"] {
+  width: 180px;
+  background: #4091ec;
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+
+  align-self: center;
+
+  color: #fff;
+  font-family: "Open sans";
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form.form_contact input[type="submit"]:hover {
+  background: #3371b6;
+}
+
+/* Ventana de errores*/
+.modal_wrap {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mensaje_modal {
+  background: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  padding: 30px 20px 15px;
+}
+
+.mensaje_modal h3 {
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.mensaje_modal h3:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #c5c5c5;
+  margin: 10px 0px 15px;
+}
+
+.mensaje_modal p {
+  font-size: 16px;
+  color: #606060;
+}
+
+.mensaje_modal p:before {
+  content: "\f00d";
+  font-family: FontAwesome;
+  display: inline-block;
+  color: #e25151;
+  margin-right: 8px;
+}
+
+#btnClose {
+  display: inline-block;
+  padding: 3px 10px;
+  margin-top: 10px;
+
+  background: #e25151;
+  color: #fff;
+  border: 2px solid #b14141;
+  cursor: pointer;
+
+  float: right;
+}
+
+/* ------------------------- */
+/* FOOTER */
+/* ------------------------- */
+
+.redes-sociales {
+  width: 100%;
+  padding: 10px;
+}
+
+.redes-sociales .col .row .col .img1 img {
+  width: 250px;
+  transition: 0.3s ease all;
+  float: left;
+}
+
+.redes-sociales .row img {
+  padding: 5px;
+  border-radius: 100%;
+  width: 50px;
+  transition: 0.3s ease all;
+  float: left;
+}
+
+.redes-sociales #tel-icon img {
+  display: none;
+}
+
+.redes-sociales #icons {
+  margin-left: 15%;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.2);
+}
+
+/* ------------------------- */
+/* LIGHTBOX IMG1 */
+/* ------------------------- */
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content,
+#caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1.2)
+  }
+}
+
+.close {
+  position: absolute;
+  top: 8.5%;
+  right: 9%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+z-index: 10;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ------------------------- */
+/* ENVIADO */
+/* ------------------------- */
+
+.enviado {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  margin-bottom: 20px;
+}
+
+.enviado a {
+  display: block;
+  padding: 10px 30px;
+  background: #4091ec;
+  text-decoration: none;
+  color: #fff;
+  width: 250px;
+  text-align: center;
+  align-content: center;
+  margin-left: 200px;
+}

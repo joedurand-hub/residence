@@ -1,0 +1,194 @@
+@media screen and (min-width: 355px) and (max-width: 768px) {
+  body {
+    width: 100%;
+  }
+
+  #header #img {
+    display: none;
+  }
+
+  .tarjeta1 {
+    margin-left: 10px;
+  }
+
+  .tarjeta1 .row {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  div.container-fluid {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .tarjeta1 .row .col-md-6 .pray img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: -30px;
+    margin-left: 0px;
+  }
+
+  .tarjeta1 .row .col-md-6 .panel {
+    position: initial;
+    width: initial;
+    height: initial;
+    margin-top: 7px;
+    border-radius: 0px 0px;
+  }
+
+  .tarjeta1 .row .col-md-6 {
+    padding-bottom: 1px;
+    margin: auto;
+  }
+
+  #reseñas .row {
+    margin-left: inherit !important;
+    margin-right: inherit !important;
+  }
+
+  #portfolio .portfolio-box {
+    padding-top: 2%;
+  }
+
+  .form_contact {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .contact_info {
+    width: 100%;
+    max-height: 350px;
+  }
+
+  .contact_info iframe {
+    width: 100%;
+    height: 350px;
+    left: 30px;
+  }
+
+  .ib-container-fluid {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .ib-container-fluid article {
+    width: 40%;
+    float: left;
+    margin: 4px 20px 8px 4px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: -15px;
+    padding-right: -15px;
+    border: 0px;
+  }
+
+  .ib-container-fluid article img {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    padding-top: -5px;
+  }
+
+  .ib-container-fluid article h3 {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .ib-container-fluid article p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+
+  #habitaciones-tarjetas {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+
+  #habitaciones-tarjetas #product-image {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  #habitaciones-tarjetas #product-image img {
+    width: 100%;
+    height: 90%;
+  }
+
+  #habitaciones-tarjetas #product-image img {
+    padding-top: 0px;
+  }
+
+  .redes-sociales #icons {
+    left: 27px;
+  }
+
+  .redes-sociales #tel-icon {
+    display: none;
+  }
+
+  #carouselExampleInterval {
+    width: 95%;
+    height: 50%;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 3%;
+    padding-bottom: 50px;
+  }
+
+  #carouselExampleInterval .carousel-inner {
+    width: 100%;
+    height: 400px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  #carouselExampleInterval .carousel-inner .carousel-item {
+    width: 100%;
+    height: 400px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  #carouselExampleInterval .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 400px;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  #navbarNavAltMarkup a:hover {
+    transform: translateY(2px);
+    background-color: rgba(197, 36, 36, 1);
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .form_wrap {
+    width: 100%;
+  }
+
+  #header #img {
+    width: 200px;
+    bottom: 64%;
+    left: 82%;
+    position: fixed;
+  }
+
+  #habitaciones-tarjetas {
+    width: 90%;
+  }
+
+  #habitaciones-tarjetas #container {
+    padding-top: 8px;
+  }
+}
